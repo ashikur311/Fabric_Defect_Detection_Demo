@@ -1,0 +1,21 @@
+# Virtual environment (rebuild with: pip install -r requirements.txt)
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Dataset files (too large for GitHub; download separately - see README)
+data/raw/*
+data/processed/**/*.*
+data/my_denim_samples/*
+!**/.gitkeep
+
+# Trained model weights
+models/*.pth
+models/*.pt
+
+# Editor / OS
+.vscode/
+Thumbs.db

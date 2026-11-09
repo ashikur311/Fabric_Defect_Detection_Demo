@@ -1,0 +1,19 @@
+# Fabric Defect Detection (Denim) - Python 3.14
+# Deep learning (CPU) - PyTorch used because TensorFlow has no Python 3.14 build
+torch
+torchvision
+
+# Image loading & resizing
+opencv-python
+
+# Data, metrics, charts
+numpy
+scikit-learn
+matplotlib
+seaborn
+
+# Notebook for data exploration
+jupyter
+
+# Demo web app
+streamlit
