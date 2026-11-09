@@ -31,10 +31,10 @@ pip install -r requirements.txt
 
 ## Project progress
 - [x] Phase 1 – Setup
-- [ ] Phase 2 – Research notes
-- [ ] Phase 3 – Collect data
-- [ ] Phase 4 – Explore & prepare (OpenCV)
-- [ ] Phase 5 – Train
-- [ ] Phase 6 – Evaluate
-- [ ] Phase 7 – Demo app
+- [x] Phase 2 – Research notes → [docs/research_notes.md](docs/research_notes.md)
+- [x] Phase 3 – Collect data (FabriD downloaded into `data/raw/`)
+- [x] Phase 4 – Explore & prepare (OpenCV) → `python src/prepare_data.py`, `python src/explore_data.py`
+- [x] Phase 5 – Train → `python src/train.py` (best val acc 85.4%, ~65 min on laptop CPU)
+- [ ] Phase 6 – Evaluate → `python src/evaluate.py` (test acc **81.1%** ✅) · own denim photos: `python src/predict.py data\my_denim_samples` (pending)
+- [x] Phase 7 – Demo app → `streamlit run app.py` (opens http://localhost:8501)
 - [ ] Phase 8 – Report
